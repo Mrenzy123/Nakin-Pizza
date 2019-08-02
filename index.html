@@ -32,26 +32,34 @@
         <img src="http://recreatinghappiness.com/wp-content/uploads/2012/02/019edit2.jpg" width="200" height="150">
         <p>Gluten Free Pizza Crust</p>
     </div>
-    <form id="nakinOrder">
+    <form id="nakinorder">
         <label>Nakin Pizza Size:</label>
         <select name="Size" id="pizzasize">
-            <option value="small">Small</option>
-            <option value="medium">Medium</option>
-            <option value="large">Large</option>
+            <option value="950" >Small</option>
+            <option value="1050">Medium</option>
+            <option value="1550">Large</option>
         </select>
         <label>Nakin Pizza Crusts:</label>
         <select name="Crust" id="pizzacrust">
-            <option value="small">Cheese-Stuffed Crust</option>
-            <option value="medium">Thin Crispy Pizza Crust</option>
-            <option value="large">Gluten Free Pizza Crust</option>
+            <option value="450">Cheese-Stuffed Crust</option>
+            <option value="230">Thin Crispy Pizza Crust</option>
+            <option value="500">Gluten Free Pizza Crust</option>
+            
         </select>
         <label>Nakin Pizza Toppings:</label>
         <select name="Topping" id="pizzatoppings">
-            <option value="small">Pepperoni</option>
-            <option value="medium">Sausage</option>
-            <option value="large">Pineapple</option>
-            <option value="lalla">Spinach</option>
+            <option value="750">Pepperoni</option>
+            <option value="900">Sausage</option>
+            <option value="645">Pineapple</option>
+            <option value="800">Spinach</option>
         </select>
+        <button id="submitorder">Submit</button>
     </form>
+    <h5>Review Order:</h5>
+    <p>Nakin Pizza Size : <span id="getsizehistory"></span></p>
+    <p>Nakin Pizza Crust : <span id="getcrusthistory"></span></p>
+    <p>Nakin Pizza Toppings : <span id="gettoppinghistory"></span></p>
+    <h4 id="displaysum"></h4>
+    
 </body>
 </html>
