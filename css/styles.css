@@ -4,7 +4,7 @@ body{
     color: aliceblue;
     font-size: 20px;
     float: right;
-
+    font-family: 'Pacifico', cursive;
 }
 .xyz {
        background-size: cover;
@@ -22,9 +22,7 @@ opacity: 0.7;
 }
 h1 {
     text-align: center;
-    border: 1px solid red;
-    background-color: red;
- 
+    text-decoration: underline;
     color: aliceblue;
 }
 #describe {
