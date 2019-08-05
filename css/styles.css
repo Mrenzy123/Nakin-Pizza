@@ -2,12 +2,12 @@ body{
     background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/0e/c5/de/dd/our-beautiful-pizza-oven.jpg");
     background-size: cover;
     color: aliceblue;
-    font-size: 25px;
+    font-size: 20px;
     float: right;
 
 }
 .xyz {
-       background-size: contain;
+       background-size: cover;
        background-color: black;
 content: "";
 display: block;
@@ -24,7 +24,7 @@ h1 {
     text-align: center;
     border: 1px solid red;
     background-color: red;
-    width: 100%;
+ 
     color: aliceblue;
 }
 #describe {
@@ -54,7 +54,7 @@ h1 {
     right: -209px;
 }
 .ordersummary {
-    
+    display: none;
     position: relative;
     right: -209px;
     bottom : -50px;
