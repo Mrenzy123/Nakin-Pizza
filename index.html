@@ -71,16 +71,19 @@
             <option value="400">4</option>
             <option value="500">5</option>
         </select>
+        
+        
         <br>
+        <label for="deliver">Need pizza delivered at your place?</label>
+        <br>
+        <label><input type="radio" name="Yes" value="yes" id="myRadio" > Yes</label>
+        <label><input type="radio" name="Yes" value="No" > No</label>
+        <br>
+       <button type="button" name="getVal" id="ordernow">Order Now</button>
         <button id="submitorder">Submit</button>
     </form>
     <form id="delivery">
-        <label for="deliver">Need pizza delivered at your place?</label>
-        <br>
-        <label><input type="radio" name="Yes" value="5" /> Yes</label>
-        <label><input type="radio" name="No" value="0" /> No</label>
-        <br>
-        <button type="button" name="getVal">Order Now</button>
+        
     </form>
     <div class="ordersummary">
         <h5>Review Order:</h5>
