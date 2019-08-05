@@ -12,6 +12,7 @@
     <title>NAKIN</title>
 </head>
 <body>
+    <div class="xyz"></div>
     <h1>NAKIN PIZZA</h1>
     <p id="describe">NAKIN is one of the most trending pizza place in Kigali, chances are you could have the best slice of pizza you have ever eaten.  Pizza truly makes the people come together. Not only is pizza the best because of its legendary blend of ingredients — crispy crust, bubbling cheese, savory tomato sauce, and whatever toppings you’re in the mood for — but it’s also the perfect shareable feast, as it’s pretty much humankind’s agreed-upon favorite food.Whether it’s spicing up a game night or making a weeknight at home that much more satisfying, pizza is always the best choice, pretty much any time you're craving something delicious.</p>
     <div id="choosesize">
@@ -76,8 +77,10 @@
     <form id="delivery">
         <label for="deliver">Need pizza delivered at your place?</label>
         <br>
-        <input type="radio">Yes
-        <input type="radio">No
+        <label><input type="radio" name="Yes" value="5" /> Yes</label>
+        <label><input type="radio" name="No" value="0" /> No</label>
+        <br>
+        <button type="button" name="getVal">Order Now</button>
     </form>
     <div class="ordersummary">
         <h5>Review Order:</h5>
@@ -86,5 +89,6 @@
         <p>Nakin Pizza Toppings : <span id="gettoppinghistory"></span></p>
         <h4 id="displaysum"></h4>
     </div>
+    
 </body>
 </html>
