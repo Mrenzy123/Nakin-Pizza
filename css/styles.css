@@ -1,4 +1,12 @@
 h1 {
     text-align: center;
+    border: 1px solid red;
+    background-color: red;
+    width: 100%;
 }
-#
+#describe {
+    text-align: center;
+    width :60%;
+    position:relative;
+    right : -299px;
+}
