@@ -12,7 +12,7 @@ $(document).ready(function(){
     document.getElementById("getcrusthistory").innerHTML =   likeCrust;
     document.getElementById("gettoppinghistory").innerHTML =  likeTopping;
     document.getElementById("displaysum").innerHTML = total;
-    
+
     event.preventDefault();
     })
 })

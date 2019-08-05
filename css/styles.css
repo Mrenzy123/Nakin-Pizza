@@ -1,8 +1,26 @@
+body{
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/0e/c5/de/dd/our-beautiful-pizza-oven.jpg");
+    background-size: cover;
+    color: aliceblue;
+    font-size: 25px;
+    float: right;
+    /* background-size: cover;
+content: "";
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: -2;
+opacity: 0.4; */
+}
 h1 {
     text-align: center;
     border: 1px solid red;
     background-color: red;
     width: 100%;
+    color: aliceblue;
 }
 #describe {
     text-align: center;
@@ -21,4 +39,14 @@ h1 {
 #crustsection {
     position: relative;
     right: -209px;
+}
+#nakinorder {
+    position: relative;
+    right: -209px;
+}
+.ordersummary {
+    
+    position: relative;
+    right: -209px;
+    bottom : -50px;
 }
