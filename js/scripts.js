@@ -27,7 +27,7 @@ $(document).ready(function(){
         if (checkVal === "yes"){
             deliverAmount = 700;
             var getLocation = prompt("Tell your location:");
-            alert("will be delivered at" + getLocation);
+            alert(" Pizza will be delivered at" + getLocation + "with additional amount of 700");
         }
     })
     $("form").submit(function(event){
